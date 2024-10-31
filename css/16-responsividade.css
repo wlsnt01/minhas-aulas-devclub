@@ -1,0 +1,47 @@
+/* trata-se de preparar o site para ser usado em qualquer dispositivo, celular, tablet, e computador
+em questao de resolução.. manter o site uniforme, alinhado, em qualquer dispositivo*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    width: 700px;
+    height: 700px;
+    background: red;
+}
+
+@media (max-width: 600px) {
+    div {
+        background: #f025f0;
+    }
+
+}
+/*@media(max-width:){}*/
+/*@media(min-width:){}*/
+
+/* trocando em palavras, eu estabeleço uma configuração, porem conforme a resoluçao do meu site abaixa a configuraçao muda*/
+
+
+/* Responsividade
+
+All: Para todos os dispositivos.
+Braille: Para dispositivos táteis.
+Embossed: Para dispositivos que imprimem em braile.
+Handheld: Para dispositivos portáteis, geralmente com telas pequenas e banda limitada.
+Print: Para impressão em papel.
+Projection: Para apresentações como PPS.
+Screen: Para monitores ou dispositivos com telas coloridas e resolução adequada. (vou usar so esse praticamente)
+Speech: Para sintetizadores de voz. As .CSS 2 tem uma especificacao de CSS chamada Aural, onde podemos formatar a voz dos sintetizadores.
+
+Orientação
+portrait altura.maior que a largura
+landscape largura maior que a altura */
+
+/*ex::*/
+
+@media screen and (max-width:200px) and (orientation:portrait) {
+    main{ 
+        background: #ffff25;} 
+    }

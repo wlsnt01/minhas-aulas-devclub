@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input {
+    color: #6200ff;
+    border-radius: 50px;
+    border-color: aqua;
+    position:absolute;
+    top: 250px;
+    left: 100px;
+
+}
+
+ input::placeholder {
+    color: #ff0260; 
+    
+
+} 
+
+ p::first-letter{
+    color: #f056ff; /*modificar somente a primeira letra*/
+ }
+
+ 
+ p::after{
+    content: "ï┴"; /*colocar algo depois do paragrafo*/
+ }
+ p::before{
+    content: "╚☺$"; /* colocar algo antes do paragrafo*/
+ }

@@ -1,0 +1,18 @@
+/* cores  */
+
+/* rgb (red,green,blue) mistura dessascores da qualquer outra cor existente
+limite vai de 0 a 255 */
+
+h1 {
+    background: rgb(255,255,0);
+
+}
+
+/* decimal e hexadecimal
+ DECIMAL(10):0,1,2,3,4,5,6,7,8,9
+ HEXADECIMAL(16):0,1,2,3,4,5,6,7,8,9,a,b,c,d,e,f
+ */
+
+ h1 {
+    background: #570707;
+ }

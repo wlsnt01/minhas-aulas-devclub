@@ -1,0 +1,6 @@
+/* calc()
+ba*/
+background{
+    height: calc((100vh - 200px) / 2);
+    width: calc((50vw + 200px) - 20px) ;
+}

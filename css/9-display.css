@@ -1,0 +1,25 @@
+/*
+-BLOCK
+
+Vem como padrao: div, section, p, h1, h2, ul, li, article ...
+
+    Ocupa  100% da largura do elemento pai
+    Sempre ocupa  toda a  sua  linha
+    Altura definida de acordo com o conteúdo
+    Podemos  definir height e width
+    Podemos definir valores de margin
+
+INLINE
+ 
+Vem  como padrão a, span, b, i 
+
+    Elementos em linha
+    Nao permite alterar height e width
+    Nao podemos definir valores de margin top e bottom
+    Ganha comportamento de uma palavra
+
+-INLINE-BLOCK
+
+Elementos em linha, porem com característica do display Block
+Altura e largura podem ser alteradas.
+*/

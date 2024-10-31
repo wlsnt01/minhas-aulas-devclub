@@ -1,0 +1,17 @@
+/* box-sizing 
+  
+"border-box" vamos usa-lo quase sempre aplicando em todo o site com " * {}" ele sempre matera o width e height que eu delimitei  
+"content-box" o width e height sempre vai aumentando conforme eu acrescento algo
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background: #f00000;
+    padding: 50px;
+    border: 10px solid darkblue;
+}
