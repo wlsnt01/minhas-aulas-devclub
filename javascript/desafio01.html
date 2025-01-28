@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <title>Conversor de moedas</title>
+</head>
+
+<body background="../img/screen-4.jpg" alt="image">
+    <img src="../img/pngwing.com.png" class="mão-com-dinheiro">
+
+
+    <main>
+
+
+        <label for="option"> Converter <b>de</b> 
+            <select class="currency-select0">
+                <option value="Real">R$ Real brasileiro</option>
+                <option value="Dolar">U$ Dolar americano</option>
+                <option value="Euro">€ Euro</option>
+                <option value="Libra">£ Libra</option>
+                <option value="Bitcoin">₿ Bitcoin </option>
+                <option value="Iene"> ¥ Iene</option>
+                <option value="Rubia-indiana">₹ Rubia</option>
+            </select>
+        </label>
+        <label for="option"> Converter <b>para</b>
+            <select class="currency-select">
+                <option value="">Escolha uma moeda</option>
+                <option value="Dolar">U$ Dolar americano</option>
+                <option value="Euro">€ Euro</option>
+                <option value="Libra">£ Libra</option>
+                <option value="Bitcoin">₿ Bitcoin </option>
+                <option value="Iene"> ¥ Iene</option>
+                <option value="Rubia-indiana">₹ Rubia</option>
+
+            </select>
+        </label>
+        <label for="value"> <b>Valor</b>
+            <input class="input-currency" type="number" placeholder="R$10.000,00">
+        </label>
+        <button class="convert-button">Converter</button>
+        <section>
+            <div class="currency-box">
+                <img class="currency-image0" src="../img/brasil 2.png" alt="logo-da-moeda-a-converter">
+                <p class="currency" id="currency-name0">Real</p>
+                <p class="currency-value-to-convert">R$0,00</p>
+            </div>
+            <img class="arrow-img" src="../img/2.png" alt="seta" class="seta">
+
+            <div class="currency-box">
+                <img class="currency-image" src="../img/estados-unidos (1) 1.png" alt="logo-da-moeda-convertida">
+                <p class="currency" id="currency-name">Dolar</p>
+                <p class="currency-value">U$0,00</p>
+            </div>
+        </section>
+    </main>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'roboto', sans-serif;
+
+        }
+
+        body {
+            top: 259px;
+            left: 225px;
+            gap: 0px;
+            opacity: 0px;
+
+        }
+
+        .mão-com-dinheiro {
+            width: 300px;
+            height: 300px;
+            margin: 12px auto 18px auto;
+            display: block;
+        }
+
+        main {
+            align-items: center;
+            width: 375px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            gap: 0px;
+            border-radius: 20px 0px 0px 0px;
+            opacity: 0px;
+            background: hsl(108, 80%, 10%);
+            padding: 44px 24px 23px;
+            margin: 0 auto;
+
+
+        }
+
+        label {
+            color: #92ac8d;
+            font-weight: 400;
+            font-size: 16px;
+        }
+
+        select,
+        input {
+            color: #2d472d;
+            background: #ffffff;
+            border: 1px solid #b8f1bb;
+            border-radius: 4px;
+            height: 48px;
+            width: 100%;
+            margin-bottom: 24px;
+            font-size: 18px;
+        }
+
+        button {
+            width: 100%;
+            background-color: #92ac8d;
+            border-radius: 5px;
+            border: none;
+            height: 48px;
+            color: #123815;
+            margin-bottom: 36px;
+            font-size: 18px;
+
+        }
+
+        button:hover {
+            opacity: 0.8;
+        }
+
+        button:active {
+            opacity: 0.6;
+        }
+
+        section {
+            border: 1px solid #92ac8d;
+            border-radius: 20px;
+            margin-top: 36px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+        }
+
+        .arrow-img {
+            margin: 15px 0;
+            ;
+        }
+
+        .currency-box {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 4px;
+        }
+
+        .currency {
+            color: #92ac8d;
+            font-size: 14px;
+        }
+
+        .currency-value,
+        .currency-value-to-convert {
+            color: #c3d3c5;
+            font-weight: 700;
+            font-size: 20px;
+
+        }
+    </style>
+</body>
+<script src="./desafio01.js"></script>
+
+</html>
