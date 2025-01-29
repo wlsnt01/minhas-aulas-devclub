@@ -12,4 +12,4 @@ Operadores de Comparação
 const firstNumber = 30
 const seccondNumber = 30
 
-console.log(firstNumber = seccondNumber)
+console.log( firstNumber = seccondNumber)
